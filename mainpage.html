@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectReaders</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <script>
+        function gotostory(){
+            window.location.href='selectpage.html';
+        }
+        function gotoquotes(){
+            window.location.href='#';
+        }
+        function gotofacts(){
+            window.location.href='#';
+        }
+        function backtoHome(){
+            window.location.href='index.html';
+        }
+    </script>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+  
+    <div class="option">
+    <center style="margin-top: 50px;font-size: 50px;"><p><b>Pick Your Journey</b><br></center>
+        <ul>
+            <li><button onclick="gotostory()">Story</button></li> 
+            <li><button onclick="gotoquotes()">Quotes</button></li>
+            <li><button onclick="gotofacts()">Facts</button></li>
+        </ul>
+        <button  class="backbutton" onclick="backtoHome()">Back</button>
+    </div>
+
+</body>
+</html>

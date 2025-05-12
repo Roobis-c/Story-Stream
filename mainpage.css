@@ -1,0 +1,75 @@
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #3AAFA9 50%, #DEF2F1 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+ .bg3 {
+    animation-duration:5s;
+  }
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+}
+/* background animation has been created */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    border: #2B7A78;
+    color: white;
+    width: 150px;
+    background-color:#2B7A78;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius:8px ;
+}
+
+button:hover{
+    background-color:  rgba(23,36,42,255);
+    transform: scale(1.2); 
+}
+
+.option li{
+    display: block;
+}
+
+.option {
+    max-width: 200px;
+    margin: 100px auto;
+    padding: 100px;
+    background-color: #dbdbd642;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(8, 7, 7, 0.1);
+    box-sizing: 100;
+    transition: transform .3s; 
+}
+.backbutton{
+ width: 65px;
+ background-color: #DEF2F1;
+ color: rgba(23,36,42,255);
+}
+.backbutton:hover{
+  background-color: #3AAFA9;  
+}

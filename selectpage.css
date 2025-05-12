@@ -1,0 +1,28 @@
+/* General Styles */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DEF2F1;
+    justify-content: center;
+    text-align: center;
+}
+.selector {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header{
+    padding-bottom: 100px;
+}
+button{
+    border: #2B7A78;
+    color: white;
+    width: 100px;
+    background-color:#2B7A78;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius:8px;
+}

@@ -43,3 +43,5 @@ This project is for personal/educational use and inspiration. Contact for collab
 
 > _“Delve into stories that stir the soul and facts that fuel the mind.”_
 
+Take a Look
+https://roobis.neocities.org/Story%20Stream/
